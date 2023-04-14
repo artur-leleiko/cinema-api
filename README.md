@@ -28,8 +28,9 @@ docker-compose up
 
 ## Getting access
 ```
-create user via /api/user/register/
-get access token via /api/user/token/
+Create user via /api/user/register/
+Get access token via /api/user/token/
+Install ModHeader extension and create Request header with value: Bearer <Your access token>
 ```
 
 ## Features
